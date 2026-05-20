@@ -66,7 +66,7 @@ agent = FairAgent(
     n_counterfactuals = 8,
     max_retries       = 0,
     n_iterations      = 3,
-    fairness_threshold= -1.0,                 # always search
+    fairness_threshold= 0.0,                 # always search
     output_dir        = "results"
 )
 ```
